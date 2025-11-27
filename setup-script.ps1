@@ -30,11 +30,12 @@
 .LINK
     https://learn.microsoft.com/graph
     https://learn.microsoft.com/powershell/entra
+    https://learn.microsoft.com/en-us/graph/mcp-server/get-started?tabs=http%2Cvscode
 #>
 
 # Step 1: Install the Microsoft.Entra.Beta PowerShell module
 Write-Host "Step 1: Installing Microsoft.Entra.Beta module..." -ForegroundColor Cyan
-# Install-Module Microsoft.Entra.Beta -Force -AllowClobber
+Install-Module Microsoft.Entra.Beta -Force -AllowClobber
 
 # Step 2: Connect to Entra with required scopes
 Write-Host "`nStep 2: Connecting to Entra tenant..." -ForegroundColor Cyan
